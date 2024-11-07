@@ -8,5 +8,6 @@ sudo chmod 777 /home/jin/monitoring/prometheus/data
 sudo chmod 777 /home/jin/monitoring/prometheus/logs
 
 sudo chmod 777 /home/jin/monitoring/grafana/data
+
 sudo chmod 777 /home/jin/monitoring/grafana/logs
 
