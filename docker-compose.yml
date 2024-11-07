@@ -19,7 +19,7 @@ services:
     ports:
       - "7979:7979"
     volumes:
-      - /home/jin/monitoring/prometheus/config.yml:/config/config.yml
+      - /home/${USER}/monitoring/prometheus/config.yml:/config/config.yml
     command: --config.file=/config/config.yml
 
   prometheus:
@@ -44,4 +44,3 @@ services:
       - ./grafana/logs:/var/log/grafana
     ports:
       - "3000:3000"
-
