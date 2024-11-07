@@ -1,0 +1,20 @@
+metrics:
+  - name: "enb_event_timestamp"
+    path: "$.timestamp"
+    type: "gauge"
+    help: "Timestamp of the event in the eNB report"
+    
+  - name: "enb_event_carrier_id"
+    path: "$.carrier_id"
+    type: "gauge"
+    help: "Carrier ID from the eNB report"
+
+  - name: "enb_event_cell_id"
+    path: "$.cell_id"
+    type: "gauge"
+    help: "Cell ID from the eNB report"
+
+  - name: "enb_event_nof_rach"
+    path: "$.cell_list[0].cell_container.nof_rach"
+    type: "gauge"
+    help: "Number of random access channels (RACH) from the eNB report"
