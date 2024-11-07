@@ -1,3 +1,6 @@
+sudo apt update
+sudo apt install prometheus
+sudo apt install grafana
 pip install flask
 sudo chmod 644 /home/$USER/monitoring/prometheus/json_exporter_config.json   
 sudo chmod 644 /home/$USER/monitoring/prometheus/prometheus.yml               
